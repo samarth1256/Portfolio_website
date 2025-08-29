@@ -35,7 +35,7 @@ import {
   import smdbhome from "../assets/smdbhome.png";
   import exoape from "../assets/exoape.png"
   import obys from "../assets/Obys.png"
-  import infinite from "../assets/company/infinite.png"
+  import infinite from "../assets/company/Infinite.png"
   export const navLinks = [
     {
       id: "about",
