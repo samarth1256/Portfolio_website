@@ -35,6 +35,7 @@ import {
   import smdbhome from "../assets/smdbhome.png";
   import exoape from "../assets/exoape.png"
   import obys from "../assets/Obys.png"
+  import infinite from "../assets/company/infinite.png"
   export const navLinks = [
     {
       id: "about",
@@ -115,28 +116,32 @@ import {
       name: "git",
       icon: git,
     },
-    // {
-    //   name: "figma",
-    //   icon: figma,
-    // },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
+
   ];
   
   const experiences = [
+    {
+      title: "Senior Software Developer",
+      company_name: "Infinite Computer Solutions",
+      icon: infinite,
+      iconBg: "#383E56",
+      date: "June 2024 - Present",
+      points: [
+
+"Built and optimized the Tata Play Binge application for LG webOS, Samsung Tizen, and Vidaa OS using React and JavaScript..",
+"Integrated 30+ partner OTT apps (including hotstar,prime,sonylive,appletv etc) within a single super-app experience, enabling unified search, discovery, and playback with multi-player support (Shaka Player, Video.js, SDK-based players) with DRM token & JWT authentication, supporting both HLS and DASH content.",
+"Automated CI/CD pipelines with Jenkins for faster and reliable builds, deployments, and OTA updates across Smart TV platforms.",
+"Worked on analytics & monitoring by integrating Mixpanel for tracking playback, authentication, Sentry and SSO events."
+
+      ],
+    },
     {
       title: "React.js Developer",
       company_name: "Tata Consultancy Services",
       icon: tcsLogo,
       iconBg: "#383E56",
-      date: "May 2021 - Present",
+      date: "May 2021 - May 2024",
       points: [
-        // "Developing and maintaining web applications using React.js and other related technologies.",
-        // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        // "Implementing responsive design and ensuring cross-browser compatibility.",
-        // "Participating in code reviews and providing constructive feedback to other developers.",
 
 "Collaborated in the comprehensive redesign of different websites, focusing on the development of key UI components.",
 "Translates designs and wireframes into high quality code and wrote application interface code via javascript following react js workflows. Developed the latest user facing features using reactjs and build reusable components and frontend libraries for future use.",
@@ -151,10 +156,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Feb 2021 - May 2021",
       points: [
-        // "Developing and maintaining web applications using React.js and other related technologies.",
-        // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        // "Implementing responsive design and ensuring cross-browser compatibility.",
-        // "Participating in code reviews and providing constructive feedback to other developers.",
+
 
 "Successfully executed multiple major enhancements on 12 distinct Appian platform applications, consistently meeting deadlines and exceeding customer expectations.",
 
@@ -162,19 +164,7 @@ import {
 
       ],
     },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+
     {
       title: "Data Science Video Analysis Intern",
       company_name: "Cognitensor",
@@ -182,10 +172,7 @@ import {
       iconBg: "#E6DEDD",
       date: "june 2020 - Oct 2020",
       points: [
-        // "Developing and maintaining web applications using React.js and other related technologies.",
-        // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        // "Implementing responsive design and ensuring cross-browser compatibility.",
-        // "Participating in code reviews and providing constructive feedback to other developers.",
+
         "Developed an advanced system capable of automatically detecting number plates from car images or videos using Yolo algorithm and CNN for image processing, paving the way for efficient vehicle identification and management.",
       ],
     },
